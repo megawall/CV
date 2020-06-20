@@ -1,0 +1,159 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: medium;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 5px; 
+    border-color: #c46c4a;
+}
+hr{
+    position: sticky;
+    top:0;
+    border-width: 4px;
+    border-color: #bd5d38;
+    color: #bd5d38;
+}
+h2{
+    background-image: linear-gradient(to right, #bd5d38,white,#bd5d38);
+    
+    text-align: center;
+    color: #bd5d38;
+}
+#section{
+   padding-left: 25px;
+   margin-top: 100px;
+   font-size: 30pt;
+   font-weight: bolder;
+   font-family: monospace;
+}
+#front{
+    height: 595px;
+    position: sticky;
+    top: 0;
+    background-color:#bd5d38;
+    text-align: center;
+}
+#content{
+    z-index: -1;
+}
+a{
+    color:#bd5d38
+}
+ul a{
+    color: wheat;
+}
+.item:hover a{
+    color:white;
+}
+a:focus{
+    color:white;
+}
+.navbar-light .navbar-bra {
+    font-size: large;
+    color: white
+}
+.navbar-light .navbar-nav .nav-link {
+    color: wheat
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+     color:white
+}
+#contact{
+    padding-left: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color{
+    color: #6c757d;
+}
+.color2{
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color:#54575a
+}
+.fa {
+    color:#54575a;
+}
+.fa:hover{
+    color:#313335;
+}
+.col{
+    padding-left: 35px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.session{
+    display: block;
+    text-align:right;
+    color:#bd5d38;
+    font-size: medium;
+    font-style: italic;
+}
+
+.element.active{
+    background-color:white;
+    border-color: rgb(104, 107, 63);
+    border-width: 2px;
+    color:black;
+}
+.anime{
+    animation-name:trans;
+    animation-duration: 0.90s;
+}
+@keyframes trans{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+
+    }
+    to{
+
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+@media only screen and (max-width: 1026px) {
+    .fadeshow1 {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1026px) {
+    #nav-bar {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #section {
+        margin-top: 20px;
+    }
+    .list{
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #card {
+        display: none;
+    }
+}
+#nav-bar{
+    position: sticky;
+    top:0;
+    background-color: #bd5d38;
+}
+.navbar{
+    padding: 0.3rem 1rem;
+}
+#navbarSupportedContent:active{
+    transition: 0.5s;
+}
