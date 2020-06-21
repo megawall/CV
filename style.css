@@ -109,7 +109,7 @@ a:focus{
 }
 .anime{
     animation-name:trans;
-    animation-duration: 0.90s;
+    animation-duration: 0.5s;
 }
 @keyframes trans{
     from{
