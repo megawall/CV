@@ -26,6 +26,7 @@ h2{
 }
 #section{
    padding-left: 25px;
+   padding-right: 25px;
    margin-top: 100px;
    font-size: 30pt;
    font-weight: bolder;
@@ -156,4 +157,13 @@ a:focus{
 }
 #navbarSupportedContent:active{
     transition: 0.5s;
+}
+
+.bg-info {
+    background-color: #bd5d38!important;
+}
+
+.card-body{
+    background-color: #faf2ef;
+    color:black
 }
