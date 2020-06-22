@@ -14,13 +14,13 @@ img{
 hr{
     position: sticky;
     top:0;
+    z-index:1;
     border-width: 4px;
     border-color: #bd5d38;
     color: #bd5d38;
 }
 h2{
     background-image: linear-gradient(to right, #bd5d38,white,#bd5d38);
-    
     text-align: center;
     color: #bd5d38;
 }
@@ -33,17 +33,20 @@ h2{
    font-family: monospace;
 }
 #front{
-    height: 595px;
+    height: 655px;
     position: sticky;
     top: 0;
     background-color:#bd5d38;
     text-align: center;
 }
 #content{
-    z-index: -1;
+    z-index: 0;
 }
 a{
     color:#bd5d38
+}
+#ph:hover{
+    color: rgb(126, 83, 67);
 }
 ul a{
     color: wheat;
@@ -94,8 +97,6 @@ a:focus{
     font-family: Arial, Helvetica, sans-serif;
 }
 .session{
-    display: block;
-    text-align:right;
     color:#bd5d38;
     font-size: medium;
     font-style: italic;
